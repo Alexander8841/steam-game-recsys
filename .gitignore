@@ -23,14 +23,11 @@ data/*
 .virtual_documents/
 .vscode/
 .idea/
+*_exported_assets/
 
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Jupyter Notebook checkpoints & autosaves
-.ipynb_checkpoints
-*_exported_assets/
 
 # Python Virtual Environments
 venv/
@@ -46,5 +43,7 @@ venv.bak/
 .env.*
 !.env.example
 
+# Auxiliary files
 DEVLOG_TEMPLATE.md
 PROJECT_DESIGN.md
+notebooks/*.py
