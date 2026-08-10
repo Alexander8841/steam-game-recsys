@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CatBoost training logs
+catboost_info/
+
+# Ignore ALL dataset files (raw CSVs, JSONs, processed datasets)
+data/*
+!data/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore dataset formats anywhere in the repo
+*.csv
+*.json
+*.zip
+*.tar.gz
+*.parquet
+
+# Checkpoint / Cache / IDEs
+.ipynb_checkpoints/
+.virtual_documents/
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints & autosaves
+.ipynb_checkpoints
+*_exported_assets/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+recsys_env/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+DEVLOG_TEMPLATE.md
+PROJECT_DESIGN.md
